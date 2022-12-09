@@ -52,6 +52,7 @@ fun ComposeScreen(nameGet: String?) {
         modifier = Modifier
             .fillMaxSize()
     ) {
+
         var name by remember { mutableStateOf(nameGet) }
 
         OutlinedTextField(
